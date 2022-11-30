@@ -1,13 +1,11 @@
 package ObjectRepo;
 
-import Utilities.Common_Functions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Homepage {
-    Common_Functions function = new Common_Functions();
     public Homepage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
